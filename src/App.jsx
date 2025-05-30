@@ -1,5 +1,6 @@
 import './App.css'
-import SimpleForm from './components/SimpleForm/SimpleForm'
+import FormAction from './components/SimpleForm/FormAction/FormAction'
+// import SimpleForm from './components/SimpleForm/SimpleForm'
 
 function App() {
 
@@ -8,8 +9,8 @@ function App() {
     <>
 
       <h1>Explore React Form</h1>
-      <SimpleForm></SimpleForm>
-
+      {/* <SimpleForm></SimpleForm> */}
+      <FormAction></FormAction>
     </>
   )
 }
